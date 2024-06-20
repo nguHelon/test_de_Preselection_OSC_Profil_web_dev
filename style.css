@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  text-align: center;
+  background-color: #e27602;
+}
+
+header h1 {
+  color: black;
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+  margin: 50px 0;
+}
+
+main .filter-div {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main .filter-div #input {
+  outline: none;
+  width: 500px;
+  padding: 10px 12px;
+  border: 1px solid gray;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+main .filter-div .filterBtn {
+  outline: none;
+  border: none;
+  background: black;
+  color: #e27602;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+main .restaurant-grid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+main .restaurant-grid > div {
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  transform: scale(0.9);
+  transition: ease-in-out 100ms;
+}
+
+main .restaurant-grid div:hover {
+  transform: scale(1);
+}
+
+main .restaurant-grid div img {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+main .restaurant-grid div .description-restaurant {
+  padding: 10px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  text-align: center;
+  background: black;
+}
+
+footer h1 {
+  font-size: 22px;
+  color: rgb(163, 163, 163);
+}
+
+footer h1 span,
+p span {
+  color: #e27602;
+}
+
+footer p {
+  font-size: 18px;
+  color: rgb(163, 163, 163);
+  text-overflow: ellipsis;
+}
