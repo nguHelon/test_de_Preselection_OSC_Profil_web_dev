@@ -1,6 +1,6 @@
 # Test Technique Developpement Web
 
-![Screenshot the project](restaurantPic.jpg);
+![Screenshot the project](ProjectRestaurant.png);
 
 ## Problem encountered
 
